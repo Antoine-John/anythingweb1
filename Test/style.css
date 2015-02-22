@@ -1,0 +1,128 @@
+
+h1 {
+font-size:30px;
+font-family:zapfino;
+opacity:1;
+}
+.h{
+text-align:center;
+}
+p{
+font-family:american typewriter;
+font-size:20px;
+opacity:1;
+}
+body { 
+font-family:american typewriter;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+left: 0;
+  margin: 0;
+  overflow: auto;
+  position: relative;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: white;
+    border: 1px solid black;
+    opacity: 0.7; 
+    //min-height: 1550px;
+    min-width:95%;
+}
+
+audio, video {
+    margin:5%;
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;
+	/*position:absolute;*/
+}
+
+.inside{
+    margin-left:5%;
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;
+}
+
+footer{
+    min-padding-bottom:10px
+}
+
+.inside{
+    opacity:1;
+}
+
+#alanAnswer, #aaronAnswer, button{
+    padding: 5px;
+    height:auto;
+    width: 240px;
+    background-color: limegreen;
+    border: 1px solid black;
+    font-family:chalkboard se;
+    font-size: 20px
+    opacity:1;
+}
+
+#alan ul li, #aaron ul li{
+    list-style:none;
+    opacity:1;
+}
+
+
+/* Initial menu */
+.menu {
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 200px;
+}
+
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: ;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.activate{
+color:orange;
+}
